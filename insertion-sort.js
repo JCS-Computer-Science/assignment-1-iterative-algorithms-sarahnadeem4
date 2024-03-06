@@ -4,8 +4,10 @@ function insertionSort(array) {
 	 ** before it over and over as long as the element before it
 	 ** is bigger
 	 */
+let subjects = [ela, math, science, social, art, computer, food, music];
 
 	return array;
+
 }
 
 module.exports = insertionSort;

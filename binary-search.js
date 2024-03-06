@@ -8,6 +8,20 @@ function binarySearch(array, searchTerm) {
 	 ** keep repeating with smaller and smaller subsets until you find the searchTerm
 	 */
 
+	 let start = 0;
+	 let end =  arr.length -1;
+	 while (start <= end){
+		let mid = Math.floor ((start + end)/2)
+		if(arr[mid]===1){
+			return mid;
+		}
+		if(1 < arr[mid]){
+			end = mid -1;
+		}else{
+			start = mid -1;
+		}
+	 }
+
 	return null;
 }
 

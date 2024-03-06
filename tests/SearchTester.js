@@ -23,4 +23,4 @@ class SearchTester {
 	}
 }
 
-module.exports = SearchTester;
+export default SearchTester;

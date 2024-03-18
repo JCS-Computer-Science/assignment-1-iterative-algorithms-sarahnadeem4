@@ -1,4 +1,4 @@
-function binarySearch(array, searchTerm) {
+function binarySearch(arr, 1) {
 	/*
 	 ** Check the middle element, if it's higher than the searchTerm
 	 ** then check the element in between the start and the middle, otherwise
@@ -21,8 +21,8 @@ function binarySearch(array, searchTerm) {
 			start = mid -1;
 		}
 	 }
-
-	return null;
+	 return null;
 }
+
 
 module.exports = binarySearch;
